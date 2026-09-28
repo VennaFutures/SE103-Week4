@@ -1,0 +1,42 @@
+Student Name: Venna Prudence
+
+Problem:
+My morning routine to prepare for online classes and ensure I don't miss anything.
+
+Input:
+Alarm set, laptop charged, class timetable ready
+
+Output:
+Ready and logged into class on time with notes ready
+
+Edge Case Handled:
+If internet is down, switch to mobile data hotspot
+
+Pseudocode:
+START
+  Check if alarm rings
+  IF alarm rings THEN
+    Turn off alarm
+    Check laptop battery
+    IF battery < 20% THEN
+      Plug in charger
+    ELSE
+      Continue
+    END IF
+    Brush teeth and wash face
+    Prepare desk and open laptop
+    Check internet connection
+    IF internet is down THEN
+      Turn on mobile hotspot
+    ELSE
+      Connect to WiFi
+    END IF
+    Open class link from timetable
+    Join class
+  ELSE
+    Keep sleeping
+  END IF
+END
+
+Why this is clear enough to follow:
+This pseudocode is clear because it uses specific conditions and actions in order. It includes IF/ELSE decisions for battery and internet which are real problems I face. Anyone can follow it step by step without guessing what to do next.
