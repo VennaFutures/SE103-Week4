@@ -5,7 +5,7 @@ Trace 1 - target "Kofi":
 1. Check if list is empty -> No
 2. Set found = False
 3. First name Ama: Is Ama == Kofi? No
-4. Second name Kofi: Is Kofi == Kofi? Yes -> found = True, break
+4. Second name Kofi: Is Kofi == Kofi? Yes -> found = True, break loop
 5. Check found -> True
 Result: Found
 
