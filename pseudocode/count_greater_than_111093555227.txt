@@ -1,0 +1,26 @@
+Student Name: Venna Prudence
+
+Problem:
+Count how many numbers in a list are greater than 10.
+
+Input:
+a list of numbers
+
+Output:
+the count, or an error if the list is empty
+
+Pseudocode:
+START
+  Input list of numbers
+  IF list is empty THEN
+    Return Error: list is empty
+  ELSE
+    SET count = 0
+    FOR each number in list DO
+      IF number > 10 THEN
+        count = count + 1
+      END IF
+    END FOR
+    Return count
+  END IF
+END
