@@ -1,0 +1,15 @@
+Student Name: Venna Prudence
+GitHub Username: VennaFutures
+Repository: SE103-Week4
+Repository URL: https://github.com/VennaFutures/SE103-Week4
+
+What a pull request asks teammates to do:
+A pull request asks teammates to review proposed changes before they become part of the main branch. It gives reviewers a place to examine the changes and provide feedback.
+
+Why branches and pull requests are used together:
+A branch provides a separate place to develop changes without directly changing main. A pull request then allows those changes to be reviewed before they are merged into main.
+
+One thing that confused me in this project and how I solved it:
+At first, I was confused about how local Git changes appear on GitHub. I learned that committing saves changes in the local Git history, while pushing sends those commits to GitHub. I also learned that branches allow changes to be worked on separately from main. Following the Git commands in order helped me understand the workflow.
+
+All required files are on main: Yes
