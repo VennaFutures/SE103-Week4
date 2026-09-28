@@ -1,0 +1,22 @@
+Student Name: Venna Prudence
+Name list: ["Ama", "Kofi", "Yaw"]
+
+Trace 1 - target "Kofi":
+1. Check if list is empty -> No
+2. Set found = False
+3. First name Ama: Is Ama == Kofi? No
+4. Second name Kofi: Is Kofi == Kofi? Yes -> found = True, break
+5. Check found -> True
+Result: Found
+
+Trace 2 - target "Efua":
+1. Check if list is empty -> No
+2. Set found = False
+3. First name Ama: Ama == Efua? No
+4. Second name Kofi: Kofi == Efua? No
+5. Third name Yaw: Yaw == Efua? No
+6. Loop ends, found still False
+Result: Not found
+
+Empty list input: []
+Empty list result: Error: list is empty

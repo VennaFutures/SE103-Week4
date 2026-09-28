@@ -1,0 +1,33 @@
+Student Name: Venna Prudence
+
+Problem:
+Search a list of names for one target name and report whether it was found.
+
+Input:
+- a list of names
+- one target name
+
+Output:
+- "Found" or "Not found"
+- or an error if the list is empty
+
+Pseudocode:
+START
+  Input list of names and target name
+  IF list is empty THEN
+    Return Error: list is empty
+  ELSE
+    SET found = False
+    FOR each name in list DO
+      IF name == target name THEN
+        SET found = True
+        Break loop
+      END IF
+    END FOR
+    IF found == True THEN
+      Return "Found"
+    ELSE
+      Return "Not found"
+    END IF
+  END IF
+END
