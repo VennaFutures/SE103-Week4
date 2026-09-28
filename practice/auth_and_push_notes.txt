@@ -1,0 +1,16 @@
+Student Name: Venna Prudence
+GitHub Username: VennaFutures
+
+Authentication method I used: SSH
+
+Why I chose this method:
+I chose SSH because it allows my computer to securely connect to GitHub without entering my GitHub password for every push. It also works well for regular Git work from my computer.
+
+One security habit I must follow with this method:
+I must keep my private SSH key secret and never share it with another person. I should also protect my computer and use a passphrase for my SSH key when appropriate.
+
+Difference between a commit and a push:
+A commit saves a set of changes in the local Git repository and records them in Git history. A push sends my local commits to the remote repository on GitHub. A commit can exist on my computer without being on GitHub. I need to push the commit for other people and GitHub to receive it.
+
+My repository URL:
+https://github.com/VennaFutures/SE103-Week4
