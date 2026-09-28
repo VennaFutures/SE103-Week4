@@ -3,13 +3,13 @@ GitHub Username: VennaFutures
 Repository: SE103-Week4
 Repository URL: https://github.com/VennaFutures/SE103-Week4
 
-What a pull request asks teammates to do:
-A pull request asks teammates to review proposed changes before they become part of the main branch. It gives reviewers a place to examine the changes and provide feedback.
+What I understand better about algorithms now:
+I now understand that algorithms are step-by-step instructions that must be precise and handle all cases. Before this week I thought pseudocode was just rough notes, but now I see it needs clear input, output, and edge cases. Writing pseudocode first helps me think through logic before worrying about syntax.
 
-Why branches and pull requests are used together:
-A branch provides a separate place to develop changes without directly changing main. A pull request then allows those changes to be reviewed before they are merged into main.
+How tracing changed my confidence:
+Tracing forced me to walk through each line with real data which showed me where my logic fails. When I traced the count greater than 10 example, I could see exactly how the counter increases. This makes me more confident that my algorithm works before I even write code.
 
-One thing that confused me in this project and how I solved it:
-At first, I was confused about how local Git changes appear on GitHub. I learned that committing saves changes in the local Git history, while pushing sends those commits to GitHub. I also learned that branches allow changes to be worked on separately from main. Following the Git commands in order helped me understand the workflow.
+One pseudocode habit I will keep:
+I will always include empty-list checks and clear IF/ELSE and loops in my pseudocode. I will also write edge cases and define failing rules explicitly so my future code is easier to write.
 
 All required files are on main: Yes
