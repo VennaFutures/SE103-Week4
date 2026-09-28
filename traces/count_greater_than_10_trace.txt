@@ -1,0 +1,17 @@
+Student Name: Venna Prudence
+Sample Input: [4, 15, 10, 22, 8]
+
+Step-by-step trace:
+1. Check if list is empty -> No, list has 5 elements
+2. Initialize count = 0
+3. First number 4: Is 4 > 10? No -> count stays 0
+4. Second number 15: Is 15 > 10? Yes -> count = 1
+5. Third number 10: Is 10 > 10? No (equal not greater) -> count stays 1
+6. Fourth number 22: Is 22 > 10? Yes -> count = 2
+7. Fifth number 8: Is 8 > 10? No -> count stays 2
+8. Loop ends, return count
+
+Final output: 2
+
+Empty list input: []
+Empty list result: Error: list is empty
