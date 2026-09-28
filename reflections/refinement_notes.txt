@@ -1,0 +1,10 @@
+Student Name: Venna Prudence
+
+Which phrases were too vague:
+The phrases "Check them" and "Find who failed" are too vague because they don't say how to check or what failing means. "Show result" is also vague because it doesn't specify the format of output.
+
+How I made each vague part specific:
+I replaced "Get student scores" with "Input list of scores and set failing_list to empty". I changed "Check them" to a loop that checks each score against score < 50. I made "Find who failed" specific by adding scores that meet the failing rule to failing_list, and I clarified "Show result" to handle both cases where failing_list is empty or has values.
+
+Why refinement matters before coding:
+Refinement matters because vague pseudocode leads to bugs and confusion when coding. When steps are specific, I can translate directly to code and handle edge cases like empty lists early.

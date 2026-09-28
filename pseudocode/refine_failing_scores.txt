@@ -1,0 +1,33 @@
+Student Name: Venna Prudence
+
+Problem:
+Find which scores failed.
+
+Input:
+a list of student scores
+
+Output:
+the failing scores, or a message if no one failed
+
+Failing rule:
+score < 50
+
+Pseudocode:
+START
+  Input list of scores
+  SET failing_list = empty list
+  IF list is empty THEN
+    Return Error: no scores provided
+  ELSE
+    FOR each score in list DO
+      IF score < 50 THEN
+        Add score to failing_list
+      END IF
+    END FOR
+    IF failing_list is empty THEN
+      Return "No one failed"
+    ELSE
+      Return failing_list
+    END IF
+  END IF
+END
